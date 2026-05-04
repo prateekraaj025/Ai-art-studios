@@ -35,7 +35,9 @@ git clone https://github.com/yourusername/memory-analyzer.git
 cd memory-analyzer
 2. Install Python Dependencies
 pip install -r requirements.txt
+
 🚀 Usage
+
 1. Start the Flask Application
 python app.py
 2. Run on a Different Port (Optional)
@@ -47,7 +49,9 @@ Visit: http://localhost:5000
 
 (The dashboard auto-refreshes for live updates.)
 
+
 🔌 API Endpoints
+
 Endpoint	Description
 /memory	Get real-time memory usage statistics
 /processes	View memory usage of running processes
@@ -55,18 +59,25 @@ Endpoint	Description
 /health	System health overview
 Example:
 curl http://localhost:5000/memory
+
 🛠️ Configuration
+
 Refresh Interval: Configure dashboard refresh rate
 Memory Threshold: Set alert levels for high memory usage
 Logging: Enable/disable detailed logs
+
 ⚡ Performance Considerations
+
 Lightweight and efficient monitoring using psutil
 Minimal system overhead
 Suitable for real-time tracking without performance degradation
+
 🔒 Security
+
 May require elevated permissions for full system monitoring
 Avoid exposing system metrics publicly
 Run in a secure and controlled environment
+
 🤝 Contributing
 
 We welcome contributions! Here’s how to get started:
